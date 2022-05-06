@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ramdom Cats 2</title>
+</head>
+<body>
+    <main>
+        <!-- title section -->
+        <section class="text-container">
+            <h1>Random Cats. :3</h1>
+        </section>
+            <!-- error notification !! -->
+        <span id="cats-error"></span>
+            <!-- title section II -->
+
+
+         <!-- image container -->
+        <section class="random-cats">
+            <article class="articlesn">
+                <img alt="foto de un gatito aleatorio" id="img1">
+                <button id="btn1">save cat as favorite</button>
+            </article>
+
+            <article class="articlesn">
+                <img alt="foto de un gatito aleatorio" id="img2">
+                <button id="btn2">save cat as favorite</button>
+            </article>
+        </section>
+
+        <div class="button-recharger">
+            <button onclick="loadRandomCats()" class="button-rch"><span></span>Recharge</button>
+        </div>
+        <h2 class="uploading-text">upload a photo of your cat!!</h2>
+
+                    <!-- section to add a cat -->
+        <section id="uploadingCat" class="upload-cats">
+            <form id="uploadingForm">
+                <input type="file" id="file" name="file" class="files-button">
+                <button type="button" onclick="uploadCatPhoto()" >upload a photo of your cat</button>
+            </form>
+        </section>
+        <h2 class="favorite-text">Favorite Cats</h2>
+
+        <!-- favorite cats section -->
+        <section id="favorite-cats">
+            <article class="favorites-order">
+                <img alt="foto de un gatito aleatorio" id="img1" class="img-favorites">
+                <button>sacar gato de tus favoritos</button>
+            </article>
+        </section>
+
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

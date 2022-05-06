@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* images */
+img{
+    width: 400px;
+    height: 400px;
+    border: 5px solid aqua;
+    margin: 10px 15px 15px;
+    box-shadow: -13px 17px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -13px 17px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px 17px 26px -6px rgba(0,0,0,0.75);
+}
+
+/* image container */
+.random-cats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* buttons */
+button{
+    width: 190px;
+    height: 50px;
+    border: 1px solid aqua;
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    box-shadow: -13px 17px 26px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -13px 17px 26px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 17px 26px -6px rgba(0,0,0,0.75);
+}
+
+button:hover {
+    background-color: rgb(150, 147, 147);
+}
+
+
+.articlesn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* texts */
+.text-container h1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container h3 {
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.gatitos-text {
+    font-family: 'Square Peg', cursive;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+
+/* favorites and POST */
+.button-recharger{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button-rch {
+    text-transform: uppercase;
+    font-family: 'Square Peg', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.uploading-text {
+    font-family: 'Square Peg', cursive;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.upload-cats {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.favorite-text {
+    font-family: 'Square Peg', cursive;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
