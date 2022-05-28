@@ -1,5 +1,5 @@
 ## Connecting to an API with Javascript (theCatApi)
-
+[VISIT THE SITE HERE](https://srgenius1.github.io/)
 - Using Html, Css, JS
 - Good code practices
 - Using Asynchrony in javascript
